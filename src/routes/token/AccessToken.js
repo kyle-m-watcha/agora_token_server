@@ -42,10 +42,10 @@ export var AccessToken = function (appID, appCertificate, channelName, uid) {
       .and(UINT32(0xffffffff))
       .toNumber();
     var content = AccessTokenContent({
-      signature: signature,
-      crc_channel: crc_channel,
-      crc_uid: crc_uid,
-      m: m,
+      signature,
+      crc_channel,
+      crc_uid,
+      m,
     }).pack();
     return version + token.appID + content.toString("base64");
   };
