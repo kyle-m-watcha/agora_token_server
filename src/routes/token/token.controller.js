@@ -24,7 +24,7 @@ class TokenController {
     res.json({
       ok: true,
       token:
-        "006967c262fe6b8417bab8058645362e2daIADbQsDdGxxjMURk5vuAQhmn1+Fq2c7vvjBADvjAtbYwo2U1u1UAAAAAEAC5X9YGyCpSYAEAAQDIKlJg",
+        "006967c262fe6b8417bab8058645362e2daIAB9nbZiAR0suzyMPAYiOEygZa4heNTBUIBezPHAeZ/8itfkF4QAAAAAEAC5X9YGVqRSYAEAAQBWpFJg",
     });
   };
 }
