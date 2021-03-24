@@ -1,8 +1,8 @@
 import express from "express";
-import test from "./token";
+import token from "./token";
 
 const routes = express.Router();
 
-routes.use("/token", test);
+routes.use("/token", token);
 
 export default routes;

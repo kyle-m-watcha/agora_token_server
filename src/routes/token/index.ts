@@ -1,8 +1,9 @@
 import express from "express";
 import tokenController from "./token.controller";
 
-const test = express.Router();
+const tokenRouter = express.Router();
 
-test.get("/", tokenController.get);
+tokenRouter.get("/", tokenController.get);
+tokenRouter.get("/update", tokenController.set);
 
-export default test;
+export default tokenRouter;
